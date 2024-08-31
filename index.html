@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explosion</title>
+    <style>
+      html,
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        height: 100vh;
+      }
+      .wrapper {
+        padding: 16px;
+        width: 100%;
+        max-width: 38rem; /* 控制最大宽度 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .img-miku {
+        width: 80%;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="/src/assets/miku.jpg" alt="" class="img-miku" />
+      <div>Ciallo~</div>
+    </div>
+  </body>
+  <script type="module" src="/src/renderer.ts"></script>
+</html>
